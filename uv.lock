@@ -622,18 +622,18 @@ wheels = [
 
 [[package]]
 name = "e-serde"
-version = "0.2.0"
+version = "0.5.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "msgspec" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/45/03/2b01b5a1947afb0d4ed388926c08c251cc58d9e8064410b738a2909c60da/e_serde-0.2.0.tar.gz", hash = "sha256:ff9b88404b67ab82bdfa62eda73856301e72364f688ff34d24316b6579015afc", size = 27535, upload-time = "2026-09-23T12:43:41.938Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d2/98/41ed47e7008b567014194e77f1c80d3f12220b94ef6aa31bc04c837319cd/e_serde-0.5.1.tar.gz", hash = "sha256:c08d6668275146a9e492d97d427f9b8b258dfc2ca4f130365285f2e16427b568", size = 36470, upload-time = "2026-09-25T10:00:33.78Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e3/a0/84f18b7a34d45dc65b0552aed09f12484625ab84a6bad5661378fbd4c7d6/e_serde-0.2.0-cp314-cp314-macosx_10_12_x86_64.whl", hash = "sha256:511e1d251a33d79f71002eea265bb030a07657d48bd9a066886b892e5130e261", size = 435683, upload-time = "2026-09-23T12:43:35.08Z" },
-    { url = "https://files.pythonhosted.org/packages/a5/70/c0e8f591fe61e19ac0f99c611f81cef324bdc3218e9873bdc334924efd00/e_serde-0.2.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:8f12a215ba6211dea735f4df30c98955b2c9638f12a1a29a033895b20e7106fa", size = 411440, upload-time = "2026-09-23T12:43:36.491Z" },
-    { url = "https://files.pythonhosted.org/packages/a7/b3/12b77e49dabdf860566bb3c8899a3727df4278d282685de5a55c1fd6ec27/e_serde-0.2.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:ed82f81cf8817e0338fdeb986d002e3e75d81bba81a8f4eef45b89c5aadf9d77", size = 442408, upload-time = "2026-09-23T12:43:37.931Z" },
-    { url = "https://files.pythonhosted.org/packages/ab/2d/306ea979d87334966932381932a6cf651a7417a762f9c86b519280c72613/e_serde-0.2.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:0830ea61831a6e8a25e370000b9cd5ab438c6f0776459dcc3821b4659080aa18", size = 457752, upload-time = "2026-09-23T12:43:39.384Z" },
-    { url = "https://files.pythonhosted.org/packages/b5/94/82b5fcfade8a8fe1211d70b2f03baec9e135e6e14c7d6cfeac18673c20a2/e_serde-0.2.0-cp314-cp314-win_amd64.whl", hash = "sha256:57e0d510cf2e073664a64fb2a3ac4014833973b3d429e0f66f8de8250946c332", size = 361674, upload-time = "2026-09-23T12:43:40.687Z" },
+    { url = "https://files.pythonhosted.org/packages/c6/62/ce7be134cea3fb7a365c4bb32391ef88f161e6695c7e9a16200b6ddf436c/e_serde-0.5.1-cp314-cp314-macosx_10_12_x86_64.whl", hash = "sha256:5d7052668aa78809ed43e5c2dcee505e7ef855e16f6d8f594b6e83f95b0e4882", size = 492309, upload-time = "2026-09-25T10:00:25.462Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/66/b26ead347bb9ab41ac7ffa948a499d9c0a441026a0d0a971ef5fbc6879f3/e_serde-0.5.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:a859e055080ca7d80fd42abf66e2cc027345a750f18c87801f8bf14fe2a36c77", size = 463378, upload-time = "2026-09-25T10:00:27.261Z" },
+    { url = "https://files.pythonhosted.org/packages/23/43/aa32c33fcc1c6907370431f6c253bef67ca18a2c3f9f677a09cbc2d92142/e_serde-0.5.1-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:d04c9d529c5240914eb2a5f23ee03e99ca987f620bd4a0f0b72fa660fb3b6160", size = 497326, upload-time = "2026-09-25T10:00:28.968Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/5d/956717b8bafe5e26975260f37d372342ba891c669703afa927bbcb4cec27/e_serde-0.5.1-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:1da476a9584c72efc1b19836593373715176857180373e67cea4c3663683397a", size = 516397, upload-time = "2026-09-25T10:00:30.8Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/cc/01c1ce3e42e58f690dd5c7e3d19cd911a92bff519b5da6effcaca14c56dc/e_serde-0.5.1-cp314-cp314-win_amd64.whl", hash = "sha256:5b1e2cfa6f9bc9f84694f7bc9827690950d3bb4cdd0918a552f8b95514616b9b", size = 419417, upload-time = "2026-09-25T10:00:32.42Z" },
 ]
 
 [[package]]
@@ -2169,7 +2169,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "e-serde", marker = "extra == 'serde'", specifier = ">=0.2.0,<0.3" },
+    { name = "e-serde", marker = "extra == 'serde'", specifier = ">=0.2.0,<0.6" },
     { name = "faker-file", extras = ["common"], marker = "extra == 'files'", specifier = ">=0.19" },
     { name = "faker-file", extras = ["common"], marker = "extra == 'random'", specifier = ">=0.19" },
     { name = "polyfactory", marker = "extra == 'objects'", specifier = ">=2.22" },
@@ -2181,7 +2181,7 @@ provides-extras = ["files", "objects", "random", "serde"]
 [package.metadata.requires-dev]
 dev = [
     { name = "attrs", specifier = ">=26.1.0" },
-    { name = "e-serde", specifier = ">=0.2.0,<0.3" },
+    { name = "e-serde", specifier = ">=0.2.0,<0.6" },
     { name = "faker-file", extras = ["common"], specifier = ">=0.19" },
     { name = "mkdocs-gen-files", specifier = ">=0.6" },
     { name = "mkdocs-literate-nav", specifier = ">=0.6" },
@@ -2219,7 +2219,7 @@ lint = [
 ]
 test = [
     { name = "attrs", specifier = ">=26.1.0" },
-    { name = "e-serde", specifier = ">=0.2.0,<0.3" },
+    { name = "e-serde", specifier = ">=0.2.0,<0.6" },
     { name = "faker-file", extras = ["common"], specifier = ">=0.19" },
     { name = "msgspec", specifier = ">=0.21.1" },
     { name = "polyfactory", specifier = ">=2.22" },

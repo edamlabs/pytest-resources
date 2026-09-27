@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 [project]
 name = "pytest-resources"
 dynamic = ["version"]
-description = "Lazy, typed, attribute-navigable fixtures for test resource files, with pluggable canonical loaders (e-serde by default)."
+description = "Lazy, typed, attribute-navigable fixtures for test resource files, with pluggable canonical loaders (stdlib default, e-serde opt-in)."
 readme = "README.md"
 requires-python = ">=3.14"
 license = "MIT"
@@ -27,7 +27,7 @@ classifiers = [
 dependencies = ["pytest>=8.0"]
 
 [project.optional-dependencies]
-serde = ["e-serde>=0.2.0,<0.3"]
+serde = ["e-serde>=0.2.0,<0.6"]
 objects = ["polyfactory>=2.22"]
 files = ["faker-file[common]>=0.19"]
 random = ["pytest-resources[objects,files]"]
@@ -56,7 +56,7 @@ test = [
     "pytest-cov>=7.1",
     "pytest-randomly>=5.0",
     "pytest-timeout>=2.4",
-    "e-serde>=0.2.0,<0.3",
+    "e-serde>=0.2.0,<0.6",
     "polyfactory>=2.22",
     "faker-file[common]>=0.19",
     "pydantic>=2.13.5",
