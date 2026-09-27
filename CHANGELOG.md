@@ -6,6 +6,14 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-09-27
+
+### Fixed
+
+- The `[serde]` extra pinned `e-serde>=0.2.0,<0.3`, which made the plugin unresolvable
+  against current e-serde (0.5.x). Widened to `<0.6`; the codec table (`eserde_loaders()`)
+  was verified against `e-serde 0.5.1` on all formats (json, jsonc, yaml, toml, ini, ndjson).
+
 ## [0.3.1] - 2026-09-25
 
 ### Changed
