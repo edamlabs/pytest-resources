@@ -6,6 +6,18 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.3] - 2026-11-04
+
+### Fixed
+
+- The `[serde]` extra now requires `e-serde>=0.6.5,<0.7`. Before 0.6.5, e-serde dumped a control character inside a
+  quoted YAML scalar as `\u{1b}`, which YAML (e-serde's own `load` included) could not read back; the old `<0.6` cap
+  held every consumer on the broken line.
+
+### Changed
+
+- The project's home is `edamlabs/pytest-resources` (moved from `damvolkov`): URLs, authors and docs point there.
+
 ## [0.3.2] - 2026-09-27
 
 ### Fixed
@@ -118,11 +130,13 @@ First release.
 - A module-lifetime decode cache per tree, and typed misses (`EntryNotFoundError` /
   `KeyError`) that carry a `difflib` "did you mean" hint.
 
-[unreleased]: https://github.com/damvolkov/pytest-resources/compare/v0.3.1...HEAD
-[0.3.1]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.3.1
-[0.3.0]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.3.0
-[0.2.3]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.2.3
-[0.2.2]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.2.2
-[0.2.1]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.2.1
-[0.2.0]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.2.0
-[0.1.0]: https://github.com/damvolkov/pytest-resources/releases/tag/v0.1.0
+[unreleased]: https://github.com/edamlabs/pytest-resources/compare/v0.3.3...HEAD
+[0.3.3]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.3.3
+[0.3.2]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.3.2
+[0.3.1]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.3.1
+[0.3.0]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.3.0
+[0.2.3]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.2.3
+[0.2.2]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.2.2
+[0.2.1]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.2.1
+[0.2.0]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.2.0
+[0.1.0]: https://github.com/edamlabs/pytest-resources/releases/tag/v0.1.0
