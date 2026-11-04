@@ -1,7 +1,7 @@
 # Changelog
 
 This page mirrors the repository changelog. See
-<https://github.com/damvolkov/pytest-resources/blob/main/CHANGELOG.md> for the canonical file.
+<https://github.com/edamlabs/pytest-resources/blob/main/CHANGELOG.md> for the canonical file.
 
 ## [0.3.0] - 2026-09-25
 

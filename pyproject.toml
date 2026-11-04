@@ -12,7 +12,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
-authors = [{ name = "damvolkov", email = "damvolkovv@gmail.com" }]
+authors = [{ name = "EDamLabs" }]
 keywords = ["pytest", "pytest-plugin", "fixtures", "resources", "config", "e-serde", "json", "yaml", "toml", "testing"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -27,16 +27,16 @@ classifiers = [
 dependencies = ["pytest>=8.0"]
 
 [project.optional-dependencies]
-serde = ["e-serde>=0.2.0,<0.6"]
+serde = ["e-serde>=0.6.5,<0.7"]
 objects = ["polyfactory>=2.22"]
 files = ["faker-file[common]>=0.19"]
 random = ["pytest-resources[objects,files]"]
 
 [project.urls]
-Homepage = "https://github.com/damvolkov/pytest-resources"
-Source = "https://github.com/damvolkov/pytest-resources"
-Issues = "https://github.com/damvolkov/pytest-resources/issues"
-Changelog = "https://github.com/damvolkov/pytest-resources/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/edamlabs/pytest-resources"
+Source = "https://github.com/edamlabs/pytest-resources"
+Issues = "https://github.com/edamlabs/pytest-resources/issues"
+Changelog = "https://github.com/edamlabs/pytest-resources/blob/main/CHANGELOG.md"
 
 [project.entry-points."pytest11"]
 resources = "pytest_resources.plugin"
@@ -56,7 +56,7 @@ test = [
     "pytest-cov>=7.1",
     "pytest-randomly>=5.0",
     "pytest-timeout>=2.4",
-    "e-serde>=0.2.0,<0.6",
+    "e-serde>=0.6.5,<0.7",
     "polyfactory>=2.22",
     "faker-file[common]>=0.19",
     "pydantic>=2.13.5",
